@@ -4,6 +4,7 @@ metadata:
   name: breakglass-pod2
   labels:
     image-policy.k8s.io/break-glass: "true"
+  namespace: bucketaccess
 spec:
   containers:
   - name: container-name
