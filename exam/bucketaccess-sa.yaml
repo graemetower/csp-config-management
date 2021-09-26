@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  annotations:
+    iam.gke.io/gcp-service-account: workload-identity-test@qwiklabs-gcp-00-07079e6e99d8.iam.gserviceaccount.com
+  name: workload-identity-test
+  namespace: bucketaccess
