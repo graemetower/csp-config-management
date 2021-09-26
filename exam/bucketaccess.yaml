@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: breakglass-pod2
+  name: bucketaccess-test
   labels:
     image-policy.k8s.io/break-glass: "true"
   namespace: bucketaccess
