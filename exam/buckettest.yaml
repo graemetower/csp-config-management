@@ -4,7 +4,8 @@ metadata:
   name: buckettest
   labels:
     image-policy.k8s.io/break-glass: "true"
+  namespace: bucketaccess
 spec:
   containers:
   - name: container-name
-    image: gcr.io/distroless/static
+    image: gcr.io/distroless/base-debian10
